@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Time Chat Application</title>
+    <script defer src="http://localhost:3001/socket.io/socket.io.js"></script>
+    <script defer src="Js/clientside.js"></script>
+    <link rel="stylesheet" href="Css/style.css">
+</head>
+<body>
+    <nav>
+        <img class="logo" src="chat.png" Alt=" "> 
+    </nav>
+    <h1>Talk To U Application</h1>
+    <div class="container">
+        <nav class="navbar">
+            <div class="logo-name" id="lname"></div>
+        </nav>
+    </div>
+    <div class="sender">
+        <form action="#" id="send-container">
+            <input type="text" name="msg" id="msg">
+            <button class="button" type="submit">SEND</button>
+        </form>
+    </div>
+</body>
+</html>

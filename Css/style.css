@@ -1,0 +1,88 @@
+.logo
+{
+    display: block;
+    margin: auto;
+    width: 60px;
+    height: 60px;
+}
+body{
+     background-color: rgb(17, 48, 71);
+    
+}
+h1
+{
+    text-align: center;
+    font-family:"Times New Roman", Times, serif;
+    font-size: 50px;
+    color: #b47878;
+}
+.container
+{
+    max-width: 1000px;
+    background-color: rgb(165, 192, 235);
+    margin: auto;
+    height: 100vh;
+    overflow: auto;
+    margin-bottom:23px ;
+}
+.navbar
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(91, 12, 110);
+    height: 55px;
+    width: 99.5%;
+    border: 2px solid red;
+}
+.logo-name
+{
+    color: aliceblue;
+    font-size: 50px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+    font-family:"Times New Roman", Times, serif;
+}
+.massages
+{
+    background-color: antiquewhite;
+    width: 30%;
+    padding: 10px;
+    margin: 20px 15px;
+    border: 2px solid brown;
+    border-radius: 20px;
+}
+.left
+{
+    float: left;
+    clear: both;
+}
+.right
+{
+    float: right;
+    clear: both;
+}
+
+#send-container
+{
+    text-align: center;
+    max-width: 1000px;
+    display: block;
+    margin: auto;
+}
+#msg
+{
+    width: 90%;
+    border: 2px solid red;
+    border-radius: 10px;
+    height: 30px;
+}
+.button
+{
+    cursor: pointer;
+    border-radius: 15px;
+    border: 2px solid black;
+    height: 40px;
+}
+
+
